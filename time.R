@@ -19,4 +19,4 @@ time_long <- gather(time, type, value, words:similes)
 
 p <- ggplot(time_long, aes(year, value, color=type))+ geom_line()
 
-plot(p)
+plot(p) 
